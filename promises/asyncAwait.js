@@ -11,8 +11,10 @@ Then write a promise (create a promise).
 Then check the promise (consume the promise).
 */
 
+//https://reqres.in/<--- api given by laize 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function (syntax reference)
+
+
 //Define the weather.
-
 //Create a promise.
-
 //Consume the promise using async...await.
