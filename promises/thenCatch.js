@@ -12,7 +12,17 @@ Then check the promise (consume the promise).
 */
 
 //Define the weather.
-
+let weather = true
 //Create a promise.
-
+const bdParty = new Promise((resolve,reject) ==> {
+    if(!itsRaining){
+        const party = {
+            location: '',
+            numberOfFriends: 30,
+        }
+        resolve(party);
+    }else {
+        reject ('sorry party in the house');
+    }
+});
 //Consume the promise using then() and catch().
